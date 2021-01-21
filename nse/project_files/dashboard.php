@@ -1,7 +1,15 @@
 
 <?php
-
+ob_start ();
+session_start ();
 include "../includes/conn.php";
+
+if($user_id=="")
+{
+    header("location:login.php");
+    exit;
+
+}
 
 
 $query_country= "select company_name,short_name from company  order by company_name asc";

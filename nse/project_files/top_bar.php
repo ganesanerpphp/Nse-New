@@ -80,30 +80,20 @@ if($user_id=="")
 
                     <div class="menu-extras">
 
-                        <ul class="nav navbar-nav navbar-right pull-right">
+                        
                             <li class="navbar-c-items">
-                                <form role="search" class="navbar-left app-search pull-left hidden-xs">
-                                     <input type="text" placeholder="Search..." class="form-control">
-                                     <a href=""><i class="fa fa-search"></i></a>
-                                </form>
+                               
+                                     
+                                
+                                
                             </li>
 
                             
                             
 
-                            <li class="dropdown navbar-c-items">
-                                <a href="" class="dropdown-toggle waves-effect waves-light profile" data-toggle="dropdown" aria-expanded="true"><img src="assets/images/users/avatar-1.jpg" alt="user-img" class="img-circle"> </a>
-                                <ul class="dropdown-menu dropdown-menu-right arrow-dropdown-menu arrow-menu-right user-list notify-list">
-                                    <li class="text-center">
-                                        <h5>Hi, John</h5>
-                                    </li>
-                                    <li><a href="javascript:void(0)"><i class="ti-user m-r-5"></i> Profile</a></li>
-                                    
-                                    <li><a href="logout.php"><i class="ti-power-off m-r-5"></i> Logout</a></li>
-                                </ul>
-
-                            </li>
+                            
                         </ul>
+                        
                         <div class="menu-item">
                             <!-- Mobile menu toggle-->
                             <a class="navbar-toggle">
@@ -126,7 +116,8 @@ if($user_id=="")
                 <div class="container">
                     <div id="navigation">
                         <!-- Navigation Menu-->
-                        <ul class="navigation-menu">
+
+                            <ul class="navigation-menu">
 
                             
                             
@@ -137,13 +128,26 @@ if($user_id=="")
                                     <li><a href="company.php">Company Details</a></li>
                                     <li><a href="company_data.php">Company Data</a></li>
                                     <li><a href="company_data_view.php">Company Data View</a></li>
+                                   
                                   
                                    
                                 </ul>
+                                
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="logout.php"><i class="mdi mdi-home-map-marker"></i>Log Out</a>
+                               
+                                
                             </li>
                             
 
                         </ul>
+
+                        
+
+
+                        
                         <!-- End navigation menu -->
                     </div> <!-- end #navigation -->
                 </div> <!-- end container -->
